@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1> Обо мне</h1>
+<p> Меня зовут Дсюша, я начинающий веб-разработчик.Мне нравится изучать HTML и Python.</p>
+<hr>
+<h2>Мои интересы</h2>
+<ul>
+    <li>Рисую картины по номерам</li>
+    <li>Программирование</li>
+    <li>Занимаюсь легкой атлетикой</li>
+</ul>
+<hr>
+<img src = "../.idea/gg.jpg" alt = "Фотография милашки" width = "200">
+<nav>
+    <a href ="index2.html"> Главная страница </a>
+    <a href ="progect2.html"> Мои проекты</a>
+</nav>
+<hr>
+<h2>Связаться со мной</h2>
+<form action="/send-message.php" method="post">
+    <label>Имя: <input type="text" name="name" required></label><br>
+    <label>Email: <input type="email" name="email" required></label><br>
+    <label>Сообщение: <textarea name="message" rows="5"></textarea></label><br>
+    <input type="submit" value="Отправить">
+</form>
+<script src="script.js"></script>
+</body>
+</html>
